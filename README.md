@@ -4,9 +4,19 @@
 > Türkiye basınının dönemsel kriz söylemlerini, göreli sözcük frekanslarını (PPM), Monroe log-odds karşılaştırmalarını ve ideolojik kutuplaşma indeksini hesaplayan açık kaynaklı araştırma motoru ve interaktif analitik platformu.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Demo-Aktif_Canl%C4%B1_Uygulama-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://dagcans.github.io/arsiv-mercek/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI_0.110-009688.svg?logo=fastapi&logoColor=white)](backend/)
 [![React 19](https://img.shields.io/badge/Frontend-React_19_|_Vite_8-61DAFB.svg?logo=react&logoColor=black)](frontend/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB.svg?logo=python&logoColor=white)](backend/)
+
+---
+
+## 🌐 Canlı Web Uygulaması (Live Demo)
+
+Platformu herhangi bir yerel kurulum yapmadan, doğrudan tarayıcınız üzerinden tüm görselleştirmeleriyle test edebilirsiniz:  
+👉 **[https://dagcans.github.io/arsiv-mercek/](https://dagcans.github.io/arsiv-mercek/)**
+
+*(Not: GitHub Pages sürümü, yerel Python sunucusuna ihtiyaç duymadan külliyat verisi ve istemci tarafı filtreleme/PPM motoru üzerinden tam interaktif çalışmaktadır.)*
 
 ---
 
@@ -124,8 +134,8 @@ Platform iki aşamalı bir NLP mimarisine sahiptir:
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/<kullanici-adiniz>/MedyaTarih.git
-cd MedyaTarih
+git clone https://github.com/DagcanS/arsiv-mercek.git
+cd arsiv-mercek
 ```
 
 ### 2. Arka Uç (FastAPI) Kurulumu
